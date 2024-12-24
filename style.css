@@ -40,7 +40,7 @@ h1 {
   background: transparent;
   border: none;
   outline: none;
-  border: 2px;
+  border: 1px solid #ccc;
   color: gray;
   border-radius: 40px;
   font-size: 16px;
@@ -54,8 +54,9 @@ h1 {
   position: absolute;
   right: 10px;
   top: 30%;
-  transform: translate(-50%);
+  transform: translate(-50);
   font-size: 20px;
+  cursor: pointer;
 }
 .wrapper .remember-forget {
   display: flex;
